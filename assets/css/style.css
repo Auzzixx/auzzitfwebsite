@@ -4,10 +4,10 @@ body,html{
     margin:0;
     padding:0;
     background-color: #191d2b;
-    background-image: url('../images/office.png');
+    background-image: url('../images/office1440.png');
     background-size: auto;
-    background-position: center;
-    background-repeat: repeat;    
+    background-position: center center;
+    background-repeat: no-repeat;    
 
        /*background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);*/
      overflow-x: hidden;
@@ -16,6 +16,13 @@ body,html{
      /* pureSnow will automatically detect height of body tag */
      overflow-y: hidden;
     color: white;
+}
+
+@media (min-width: 3840px) {
+  body,html {
+    background-image: url('../images/office4k.png');
+    background-size: auto;
+  }
 }
 
 .strokeme
